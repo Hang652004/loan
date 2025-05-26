@@ -11,11 +11,11 @@ Original file is located at
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
-warnings.filterwarnings('ignore')
 
-df = pd.read_csv('/content/drive/MyDrive/trí tuệ nhân tạo/loan.csv')
+df = pd.read_csv('loan.csv')
 df.head()
 
 
